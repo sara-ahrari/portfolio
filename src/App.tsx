@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-                <GlobalStyle/>
+                      <GlobalStyle/>
       <header className="App-header">
       </header>
 
