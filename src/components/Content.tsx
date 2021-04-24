@@ -33,16 +33,19 @@ color: black;
 font-weight: bold;
 
 :hover {
-    color: #646363;
+    color: white;
 }
 `;
 
 const Content = () => {
   return (
     <Wrapper>
-    <Image/>
+      <Image />
       <p>Hi, My name is Sara, a passionate computer science engineer.</p>
-      <p>To get in touch please do not hesitate to send me an <Link href='mailto:sara.ahrari97@gmail.com'>email</Link>.</p>
+      <p>
+        To get in touch please do not hesitate to send me an{' '}
+        <Link href="mailto:sara.ahrari97@gmail.com">email</Link>.
+      </p>
     </Wrapper>
   );
 };
