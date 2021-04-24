@@ -1,20 +1,26 @@
 import React from 'react';
 import GlobalStyle from './styles/Global.styles';
-import './App.css';
+import styles from 'styled-components';
+import Content from './components/Content';
+import Header from './components/Header'
+import Footer from './components/Footer'
+
+const Wrapper = styles.div`
+text-align: center;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+font-size: 1.2em;
+`;
 
 function App() {
   return (
-    <div className="App">
-                      <GlobalStyle/>
-      <header className="App-header">
-      </header>
-
-      <div className="text-container">
-        <p>
-          Edit not <code>src/App.tsx</code> and save to reload.
-        </p>
-        </div>
-    </div>
+    <Wrapper>
+      <GlobalStyle />
+      <Header />
+      <Content />
+      <Footer />
+    </Wrapper>
   );
 }
 

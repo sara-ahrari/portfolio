@@ -1,7 +1,12 @@
 import {createGlobalStyle} from 'styled-components';
-import img from '../assets/background.jpg';
+import img from '../assets/images/background.jpg';
 
 const GlobalStyle = createGlobalStyle`
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+}
 
 html {
   background: url("${img}") no-repeat center center;
@@ -10,17 +15,11 @@ html {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Raleway';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 `;
 
 export default GlobalStyle;
