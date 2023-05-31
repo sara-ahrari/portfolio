@@ -13,7 +13,7 @@ flex-direction: column;
 font-size: 1.2em;
 `;
 
-const App = () => {
+function App() {
   return (
     <Wrapper>
       <GlobalStyle />

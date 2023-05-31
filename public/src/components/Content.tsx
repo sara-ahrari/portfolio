@@ -1,6 +1,6 @@
-import React from "react";
-import styles from "styled-components";
-import img from "../assets/images/myImage.png";
+import React from 'react';
+import styles from 'styled-components';
+import img from '../assets/images/myImage.png';
 
 const Wrapper = styles.div`
 display: flex;
@@ -43,7 +43,7 @@ const Content = () => {
       <Image />
       <p>Hi, My name is Sara, a passionate computer science engineer.</p>
       <p>
-        To get in touch please do not hesitate to send me an{" "}
+        To get in touch please do not hesitate to send me an{' '}
         <Link href="mailto:sara.ahrari97@gmail.com">email</Link>.
       </p>
     </Wrapper>
